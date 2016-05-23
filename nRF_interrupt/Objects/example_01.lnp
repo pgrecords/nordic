@@ -1,0 +1,8 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\arm_startup_nrf51.o"
+".\objects\system_nrf51.o"
+--strict --scatter ".\Objects\example_01.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\example_01.map" -o .\Objects\example_01.axf

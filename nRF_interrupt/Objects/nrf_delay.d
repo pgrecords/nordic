@@ -1,0 +1,14 @@
+.\objects\nrf_delay.o: E:\Software\Keil\ARM\PACK\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\delay\nrf_delay.c
+.\objects\nrf_delay.o: E:\Software\Keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\nrf_delay.o: E:\Software\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h
+.\objects\nrf_delay.o: E:\Software\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h
+.\objects\nrf_delay.o: E:\Software\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51.h
+.\objects\nrf_delay.o: E:\Software\Keil\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm0.h
+.\objects\nrf_delay.o: E:\Software\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\nrf_delay.o: E:\Software\Keil\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h
+.\objects\nrf_delay.o: E:\Software\Keil\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h
+.\objects\nrf_delay.o: E:\Software\Keil\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h
+.\objects\nrf_delay.o: E:\Software\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf51.h
+.\objects\nrf_delay.o: E:\Software\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_bitfields.h
+.\objects\nrf_delay.o: E:\Software\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_deprecated.h
+.\objects\nrf_delay.o: E:\Software\Keil\ARM\PACK\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\delay\nrf_delay.h
