@@ -27,10 +27,6 @@ Project File Date:  05/25/2016
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 1 (build 61)', folder: 'E:\Software\Keil\ARM\ARMCC\Bin'
 Build target 'nRF51822'
-compiling main.c...
-linking...
-Program Size: Code=1956 RO-data=224 RW-data=4 ZI-data=4196  
-FromELF: creating hex file...
 ".\Objects\work.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
@@ -49,11 +45,11 @@ Package Vendor: NordicSemiconductor
 
 Package Vendor: NordicSemiconductor
                 http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_Drivers/NordicSemiconductor.nRF_Drivers.4.0.0-2.alpha.pack
-                NordicSemiconductor::nRF_Drivers:twi_master:Hardware:4.0.0-2.alpha
+                NordicSemiconductor::nRF_Drivers:nrf_delay:4.0.0-2.alpha
                 Drivers for Nordic Semiconductor nRF family.
-   * Component: twi_master Variant: Hardware Version: 4.0.0-2.alpha
    * Component: nrf_delay Version: 4.0.0-2.alpha
    * Component: nrf_gpio Version: 4.0.0-2.alpha
+   * Component: twi_master Variant: Hardware Version: 4.0.0-2.alpha
 
 Package Vendor: NordicSemiconductor
                 http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_Examples/NordicSemiconductor.nRF_Examples.11.0.0-2.alpha.pack
@@ -78,23 +74,23 @@ Package Vendor: NordicSemiconductor
 
    * Component: NordicSemiconductor::Device:Startup:8.6.0
       Source file:   Device\Source\system_nrf51.c
-      Include file:  Device\Include\system_nrf51.h
       Source file:   Device\Source\arm\arm_startup_nrf51.s
-
-   * Component: NordicSemiconductor::nRF_Drivers:twi_master:Hardware:4.0.0-2.alpha
-      Source file:   twi_master\deprecated\twi_hw_master.c
-      Include file:  twi_master\deprecated\twi_master.h
-      Include file:  twi_master\deprecated\config\twi_master_config.h
+      Include file:  Device\Include\system_nrf51.h
 
    * Component: NordicSemiconductor::nRF_Drivers:nrf_delay:4.0.0-2.alpha
-      Include file:  delay\nrf_delay.h
       Source file:   delay\nrf_delay.c
+      Include file:  delay\nrf_delay.h
 
    * Component: NordicSemiconductor::nRF_Drivers:nrf_gpio:4.0.0-2.alpha
       Include file:  hal\nrf_gpio.h
 
+   * Component: NordicSemiconductor::nRF_Drivers:twi_master:Hardware:4.0.0-2.alpha
+      Include file:  twi_master\deprecated\twi_master.h
+      Include file:  twi_master\deprecated\config\twi_master_config.h
+      Source file:   twi_master\deprecated\twi_hw_master.c
+
    * Component: NordicSemiconductor::Board Support:bsp:Defines:11.0.0-2.alpha
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:00
 </pre>
 </body>
 </html>

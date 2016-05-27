@@ -28,7 +28,7 @@ int main(void){
 	/*
 	Settings for the I2C address.
 	We need to shift the device's I2C-address by 1 bit: 0111 0111 -> 1110 1110.
-	Set the last bit in 1 for I2C writing: 1110 1111.
+	Set the last bit in 0 for I2C writing: 1110 1111.
 	Set the last bit in 1 for I2C reading: 1110 1110.
 	*/
 	uint8_t addressWrite, addressRead;
