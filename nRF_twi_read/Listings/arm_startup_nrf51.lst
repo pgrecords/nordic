@@ -342,18 +342,18 @@ ARM Macro Assembler    Page 6
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
 ork --depend=.\objects\arm_startup_nrf51.d -o.\objects\arm_startup_nrf51.o -IE:
-\Documents\Keil\work\RTE -IE:\Documents\Keil\work\RTE\nRF_Drivers\nRF51822_xxAC
- -IE:\Software\Keil\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include -IE:\Software\
-Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include -IE
-:\Software\Keil\ARM\PACK\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\delay -I
-E:\Software\Keil\ARM\PACK\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal -IE
-:\Software\Keil\ARM\PACK\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\twi_mast
-er\deprecated -IE:\Software\Keil\ARM\PACK\NordicSemiconductor\nRF_Drivers\4.0.0
--2.alpha\twi_master\deprecated\config -IE:\Software\Keil\ARM\PACK\NordicSemicon
-ductor\nRF_Examples\11.0.0-2.alpha\bsp --predefine="__EVAL SETA 1" --predefine=
-"__UVISION_VERSION SETA 518" --predefine="_RTE_ SETA 1" --predefine="NRF51 SETA
- 1" --predefine="NRF51 SETA 1" --list=.\listings\arm_startup_nrf51.lst RTE\Devi
-ce\nRF51822_xxAC\arm_startup_nrf51.s
+\Documents\Github\Nordic\nRF_twi_read\RTE -IE:\Documents\Github\Nordic\nRF_twi_
+read\RTE\nRF_Drivers\nRF51822_xxAC -IE:\Software\Keil\ARM\PACK\ARM\CMSIS\5.0.0-
+Beta4\CMSIS\Include -IE:\Software\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceF
+amilyPack\8.6.0\Device\Include -IE:\Software\Keil\ARM\PACK\NordicSemiconductor\
+nRF_Drivers\4.0.0-2.alpha\delay -IE:\Software\Keil\ARM\PACK\NordicSemiconductor
+\nRF_Drivers\4.0.0-2.alpha\hal -IE:\Software\Keil\ARM\PACK\NordicSemiconductor\
+nRF_Drivers\4.0.0-2.alpha\twi_master\deprecated -IE:\Software\Keil\ARM\PACK\Nor
+dicSemiconductor\nRF_Drivers\4.0.0-2.alpha\twi_master\deprecated\config -IE:\So
+ftware\Keil\ARM\PACK\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp --pred
+efine="__EVAL SETA 1" --predefine="__UVISION_VERSION SETA 518" --predefine="_RT
+E_ SETA 1" --predefine="NRF51 SETA 1" --predefine="NRF51 SETA 1" --list=.\listi
+ngs\arm_startup_nrf51.lst RTE\Device\nRF51822_xxAC\arm_startup_nrf51.s
 
 
 

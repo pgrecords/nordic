@@ -14,4 +14,4 @@
 .\objects\main.o: E:\Software\Keil\ARM\PACK\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal\nrf_gpio.h
 .\objects\main.o: E:\Software\Keil\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\main.o: E:\Software\Keil\ARM\PACK\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\delay\nrf_delay.h
-.\objects\main.o: E:\Documents\Keil\work\RTE\nRF_Drivers\nRF51822_xxAC\twi_master.h
+.\objects\main.o: E:\Documents\Github\Nordic\nRF_twi_read\RTE\nRF_Drivers\nRF51822_xxAC\twi_master.h
