@@ -7,24 +7,17 @@ bool state = 0;
 uint16_t i = 0;
 
 
-
 void GPIOTE_IRQHandler(void){
-	if(NRF_GPIOTE->EVENTS_IN[0] == 1) NRF_GPIOTE->EVENTS_IN[0] = 0;   // Clear every interrupt-event!!!
-	
-	//nrf_gpio_pin_set(29);
-	//nrf_gpio_pin_clear(29);
-	nrf_gpio_pin_toggle(29);
-	state = !state;
-	++i;
-	//nrf_gpio_pin_write(29, state);
+	if(NRF_GPIOTE->EVENTS_IN[0] == 1) NRF_GPIOTE->EVENTS_IN[0] = 0;   // Clear every interrupt-event
+	nrf_gpio_pin_toggle(29);																					// Toogle LED on every interrupt
+	state = !state;																										// Inverting variable (only for indication)
+	++i;																															// Incrementing variable (only for indication)
 }
-
 
 
 int main(void){
 	nrf_gpio_cfg_input(1, NRF_GPIO_PIN_PULLUP);
 	nrf_gpio_cfg_output(29);
-	//nrf_gpio_pin_write(29, 1);
 	NVIC_EnableIRQ(GPIOTE_IRQn);
 	NRF_GPIOTE->CONFIG[0] =  (GPIOTE_CONFIG_POLARITY_HiToLo << GPIOTE_CONFIG_POLARITY_Pos)
                    | (1 << GPIOTE_CONFIG_PSEL_Pos)
@@ -35,4 +28,3 @@ int main(void){
 		
 	}
 }
-

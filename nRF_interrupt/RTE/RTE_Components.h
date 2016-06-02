@@ -4,7 +4,7 @@
  *      *** Do not modify ! ***
  *
  * Project: 'nRF_interrupt' 
- * Target:  'nRF51' 
+ * Target:  'nRF51822' 
  */
 
 #ifndef RTE_COMPONENTS_H

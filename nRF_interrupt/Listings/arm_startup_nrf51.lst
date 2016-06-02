@@ -342,15 +342,15 @@ ARM Macro Assembler    Page 6
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
 ork --depend=.\objects\arm_startup_nrf51.d -o.\objects\arm_startup_nrf51.o -IE:
-\Documents\Keil\nRF_interrupt\RTE -IE:\Software\Keil\ARM\PACK\ARM\CMSIS\5.0.0-B
-eta4\CMSIS\Include -IE:\Software\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFa
-milyPack\8.6.0\Device\Include -IE:\Software\Keil\ARM\PACK\NordicSemiconductor\n
-RF_Drivers\4.0.0-2.alpha\hal -IE:\Software\Keil\ARM\PACK\NordicSemiconductor\nR
-F_Examples\11.0.0-2.alpha\bsp --predefine="__EVAL SETA 1" --predefine="__UVISIO
-N_VERSION SETA 518" --predefine="_RTE_ SETA 1" --predefine="NRF51 SETA 1" --pre
-define="BSP_DEFINES_ONLY SETA 1" --predefine="BOARD_PCA10001 SETA 1" --predefin
-e="NRF51 SETA 1" --list=.\listings\arm_startup_nrf51.lst RTE\Device\nRF51822_xx
-AC\arm_startup_nrf51.s
+\Documents\Github\Nordic\nRF_interrupt\RTE -IE:\Software\Keil\ARM\PACK\ARM\CMSI
+S\5.0.0-Beta4\CMSIS\Include -IE:\Software\Keil\ARM\PACK\NordicSemiconductor\nRF
+_DeviceFamilyPack\8.6.0\Device\Include -IE:\Software\Keil\ARM\PACK\NordicSemico
+nductor\nRF_Drivers\4.0.0-2.alpha\hal -IE:\Software\Keil\ARM\PACK\NordicSemicon
+ductor\nRF_Examples\11.0.0-2.alpha\bsp --predefine="__EVAL SETA 1" --predefine=
+"__UVISION_VERSION SETA 518" --predefine="_RTE_ SETA 1" --predefine="NRF51 SETA
+ 1" --predefine="BSP_DEFINES_ONLY SETA 1" --predefine="BOARD_PCA10001 SETA 1" -
+-predefine="NRF51 SETA 1" --list=.\listings\arm_startup_nrf51.lst RTE\Device\nR
+F51822_xxAC\arm_startup_nrf51.s
 
 
 

@@ -3,7 +3,7 @@
 #include "nrf.h"
 #include "nrf_gpio.h"
 #include "nrf_delay.h"
-#include "twi_master.h"                 // NordicSemiconductor::nRF_Drivers:twi_master
+#include "twi_master.h"
 
 /*
 Slave Address (7bit).

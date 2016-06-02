@@ -22,7 +22,7 @@
   </DaveTm>
 
   <Target>
-    <TargetName>nRF51</TargetName>
+    <TargetName>nRF51822</TargetName>
     <ToolsetNumber>0x4</ToolsetNumber>
     <ToolsetName>ARM-ADS</ToolsetName>
     <TargetOption>
